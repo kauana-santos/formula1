@@ -1,0 +1,60 @@
+.containerTable {
+    width: 100%;
+    padding: 30px 90px;
+    box-sizing: border-box;
+    background-color: var(--fundo-table);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.table thead {
+    color: white;
+    border-bottom: 2px solid #444343;
+}
+
+.table th {
+    padding: 18px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.table td {
+    padding: 18px;
+    border-bottom: 1px solid #313131;
+    font-size: 16px;
+    color: #fff;
+}
+
+.pilotContainer{
+    display: flex;
+    align-items: center;
+    
+}
+
+.pilotContainer h4{
+    font-weight: 400;
+    
+}
+
+.pilotContainer img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-right: 4px;
+}
+
+
+.table tbody tr:hover {
+    background-color:  var(--hover-tableRow);
+}
+
+.positionNumber{
+    font-family: var( --font-number);
+    font-weight: 600;
+}

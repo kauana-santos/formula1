@@ -1,0 +1,21 @@
+
+
+.nome{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navContainer{
+    background-color: var(--fundo-header);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    padding: 4px;
+}

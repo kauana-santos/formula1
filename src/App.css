@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  var(--font-text);
+}
+
+body{
+  background-color: #000000;
+}
+
+:root{
+  --font-title: "Titillium Web", sans-serif;
+  --font-text: "Roboto Condensed", sans-serif;
+  --font-number: "Rajdhani", sans-serif;
+
+  --fundo-header: #030303;
+  --fundo-table: #000000;
+  --hover-tableRow: #080808;
+
+  --f1-red: #E10400;
+}

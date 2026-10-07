@@ -1,0 +1,15 @@
+header{
+    min-height: 8vh;
+    background-color: var(--fundo-header);
+    
+}
+
+.titleContainer{
+    color: #fff;
+    padding: 1% 0;
+}
+
+.titleContainer h1{
+    text-align: center;
+    font-family: var(--font-title);
+}
