@@ -1,0 +1,28 @@
+.RaceCardContainer{
+    color: #fff;
+    background-color: #424242;
+    width: 410px;
+    height: 210px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.cardHeader h5, .cardMain h5{
+    font-size: 17px;
+}
+
+.cardMain{
+    margin-top: 5px;
+}
+
+.cardFooter h6{
+    font-size: 18px;
+}
+

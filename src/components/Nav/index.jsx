@@ -10,7 +10,7 @@ export default function Nav() {
                         <Link className="nome" to="/">Home</Link>
                     </li>
                     <li>
-                        <Link className="nome" >Corridas</Link>
+                        <Link className="nome" to="/corridas">Corridas</Link>
                     </li>
                     <li>
                         <Link className="nome">Bolão</Link>

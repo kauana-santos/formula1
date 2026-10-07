@@ -4,7 +4,7 @@
       "posicao": 1,
       "piloto": "Kimi Antonelli",
       "pilotoImage": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/mercedes/andant01/2026mercedesandant01right.webp",
-      "nacionalidade": "Italia",
+      "nacionalidade": "Itália",
       "time": "Mercedes",
       "pontos": 320
     },
@@ -28,7 +28,7 @@
       "posicao": 4,
       "piloto": "Charles Leclerc",
       "pilotoImage": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/ferrari/chalec01/2026ferrarichalec01right.webp",
-      "nacionalidade": "Monaco",
+      "nacionalidade": "Mônaco",
       "time": "Ferrari",
       "pontos": 191
     },
@@ -52,7 +52,7 @@
       "posicao": 7,
       "piloto": "Oscar Piastri",
       "pilotoImage": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/mclaren/oscpia01/2026mclarenoscpia01right.webp",
-      "nacionalidade": "Australia",
+      "nacionalidade": "Austrália",
       "time": "McLaren",
       "pontos": 128
     },
@@ -60,7 +60,7 @@
       "posicao": 8,
       "piloto": "Isack Hadjar",
       "pilotoImage": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/redbullracing/isahad01/2026redbullracingisahad01right.webp",
-      "nacionalidade": "Franca",
+      "nacionalidade": "França",
       "time": "Red Bull Racing",
       "pontos": 96
     },
@@ -68,7 +68,7 @@
       "posicao": 9,
       "piloto": "Liam Lawson",
       "pilotoImage": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/racingbulls/lialaw01/2026racingbullslialaw01right.webp",
-      "nacionalidade": "Nova Zelandia",
+      "nacionalidade": "Nova Zelândia",
       "time": "Racing Bulls",
       "pontos": 65
     },
@@ -124,7 +124,7 @@
       "posicao": 16,
       "piloto": "Esteban Ocon",
       "pilotoImage": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/haasf1team/estoco01/2026haasf1teamestoco01right.webp",
-      "nacionalidade": "Franca",
+      "nacionalidade": "França",
       "time": "Haas F1 Team",
       "pontos": 7
     },
@@ -148,7 +148,7 @@
       "posicao": 19,
       "piloto": "Alexander Albon",
       "pilotoImage": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/williams/alealb01/2026williamsalealb01right.webp",
-      "nacionalidade": "Tailandia",
+      "nacionalidade": "Tailândia",
       "time": "Williams",
       "pontos": 5
     },
@@ -156,7 +156,7 @@
       "posicao": 20,
       "piloto": "Yuki Tsunoda",
       "pilotoImage": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/racingbulls/yuktsu01/2026racingbullsyuktsu01right.webp",
-      "nacionalidade": "Japao",
+      "nacionalidade": "Japão",
       "time": "Racing Bulls",
       "pontos": 1
     },
@@ -172,7 +172,7 @@
       "posicao": 22,
       "piloto": "Valtteri Bottas",
       "pilotoImage": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/cadillac/valbot01/2026cadillacvalbot01right.webp",
-      "nacionalidade": "Finlandia",
+      "nacionalidade": "Finlândia",
       "time": "Cadillac",
       "pontos": 0
     },
@@ -180,9 +180,211 @@
       "posicao": 23,
       "piloto": "Sergio Perez",
       "pilotoImage": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/cadillac/serper01/2026cadillacserper01right.webp",
-      "nacionalidade": "Mexico",
+      "nacionalidade": "México",
       "time": "Cadillac",
       "pontos": 0
+    }
+  ],
+  "corridas": [
+    {
+      "etapa": "TESTING",
+      "periodo": "11 - 13 Fev",
+      "pais": "Bahrein",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 ARAMCO PRE-SEASON TESTING 1 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "TESTING",
+      "periodo": "18 - 20 Fev",
+      "pais": "Bahrein",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 ARAMCO PRE-SEASON TESTING 2 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 1",
+      "periodo": "06 - 08 Mar",
+      "pais": "Austrália",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 2",
+      "periodo": "13 - 15 Mar",
+      "pais": "China",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 3",
+      "periodo": "27 - 29 Mar",
+      "pais": "Japão",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 4",
+      "periodo": "01 - 03 Mai",
+      "pais": "Estados Unidos",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 5",
+      "periodo": "22 - 24 Mai",
+      "pais": "Canadá",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 6",
+      "periodo": "05 - 07 Jun",
+      "pais": "Mônaco",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 7",
+      "periodo": "12 - 14 Jun",
+      "pais": "Espanha",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 8",
+      "periodo": "26 - 28 Jun",
+      "pais": "Áustria",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 9",
+      "periodo": "03 - 05 Jul",
+      "pais": "Reino Unido",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 10",
+      "periodo": "17 - 19 Jul",
+      "pais": "Bélgica",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 11",
+      "periodo": "24 - 26 Jul",
+      "pais": "Hungria",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 12",
+      "periodo": "21 - 23 Ago",
+      "pais": "Países Baixos",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 13",
+      "periodo": "04 - 06 Set",
+      "pais": "Itália",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 PIRELLI GRAN PREMIO DITALIA 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 14",
+      "periodo": "11 - 13 Set",
+      "pais": "Espanha",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 15",
+      "periodo": "24 - 26 Set",
+      "pais": "Azerbaijão",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 16",
+      "periodo": "02 - 04 Out",
+      "pais": "Bahrein",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 17",
+      "periodo": "09 - 11 Out",
+      "pais": "Singapura",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 18",
+      "periodo": "23 - 25 Out",
+      "pais": "Estados Unidos",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 19",
+      "periodo": "30 Out - 01 Nov",
+      "pais": "México",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 20",
+      "periodo": "06 - 08 Nov",
+      "pais": "Brasil",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 21",
+      "periodo": "19 - 21 Nov",
+      "pais": "Estados Unidos",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 22",
+      "periodo": "27 - 29 Nov",
+      "pais": "Catar",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
+      "circuitoImg": ""
+    },
+    {
+      "etapa": "ROUND 23",
+      "periodo": "04 - 06 Dez",
+      "pais": "Emirados Árabes Unidos",
+      "paisIcon": "",
+      "titulo": "FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2026",
+      "circuitoImg": ""
     }
   ]
 }
