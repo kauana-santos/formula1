@@ -27,11 +27,11 @@ export default function Tabela() {
                     <tr>
                         <td className="positionNumber">{p.posicao}</td>
                         <td className="pilotContainer">
-                            <img src={p.pilotoImage} alt="piloto-foto" />
-                            <h4>{p.piloto}</h4>
+                            <img src={p.foto} alt="piloto-foto" />
+                            <h4>{p.nome}</h4>
                         </td>
                         <td>{p.nacionalidade}</td>
-                        <td>{p.time}</td>
+                        <td>{p.equipe}</td>
                         <td>{p.pontos}</td>
                     </tr>
                 ))}
