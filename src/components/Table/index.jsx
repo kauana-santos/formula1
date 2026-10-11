@@ -24,13 +24,16 @@ export default function Tabela() {
             </thead>
             <tbody>
                 {piloto.map((p) => (
-                    <tr>
+                    <tr key={p.id}>
                         <td className="positionNumber">{p.posicao}</td>
                         <td className="pilotContainer">
                             <img src={p.foto} alt="piloto-foto" />
                             <h4>{p.nome}</h4>
                         </td>
-                        <td>{p.nacionalidade}</td>
+                        <td>
+                            <span className={`fi fi-${p.bandeira}`}></span>
+                            <span className="nacionalidade">{p.nacionalidade}</span>
+                        </td>
                         <td>{p.equipe}</td>
                         <td>{p.pontos}</td>
                     </tr>

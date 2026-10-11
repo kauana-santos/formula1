@@ -6,7 +6,7 @@ export default function Header
   return (
     <header >
         <div className="titleContainer">
-            <h1>2026 SEASON</h1>
+            <h1>2025 SEASON</h1>
         </div>
     </header>
   )
