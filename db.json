@@ -9,6 +9,7 @@
       "nacionalidade": "Britânico",
       "bandeira": "gb",
       "equipe": "McLaren",
+      "cor": "#FF8000",
       "pontos": 423
     },
     {
@@ -20,6 +21,7 @@
       "nacionalidade": "Neerlandês",
       "bandeira": "nl",
       "equipe": "Red Bull Racing",
+      "cor": "#3671C6",
       "pontos": 421
     },
     {
@@ -31,6 +33,7 @@
       "nacionalidade": "Australiano",
       "bandeira": "au",
       "equipe": "McLaren",
+      "cor": "#FF8000",
       "pontos": 410
     },
     {
@@ -42,6 +45,7 @@
       "nacionalidade": "Britânico",
       "bandeira": "gb",
       "equipe": "Mercedes",
+      "cor": "#00D2BE",
       "pontos": 319
     },
     {
@@ -53,6 +57,7 @@
       "nacionalidade": "Monegasco",
       "bandeira": "mc",
       "equipe": "Ferrari",
+      "cor": "#E8002D",
       "pontos": 242
     },
     {
@@ -64,17 +69,19 @@
       "nacionalidade": "Britânico",
       "bandeira": "gb",
       "equipe": "Ferrari",
+      "cor": "#E8002D",
       "pontos": 156
     },
     {
       "id": 7,
       "posicao": 7,
-      "nome": " Kimi Antonelli",
+      "nome": "Kimi Antonelli",
       "numero": 12,
       "foto": "https://media.formula1.com/image/upload/c_lfill,w_64/q_auto/d_common:f1:2026:fallback:driver:2026fallbackdriverright.webp/v1740000001/common/f1/2026/mercedes/andant01/2026mercedesandant01right.webp",
       "nacionalidade": "Italiano",
       "bandeira": "it",
       "equipe": "Mercedes",
+      "cor": "#00D2BE",
       "pontos": 150
     },
     {
@@ -86,6 +93,7 @@
       "nacionalidade": "Tailandês",
       "bandeira": "th",
       "equipe": "Williams",
+      "cor": "#1868DB",
       "pontos": 73
     },
     {
@@ -97,6 +105,7 @@
       "nacionalidade": "Espanhol",
       "bandeira": "es",
       "equipe": "Williams",
+      "cor": "#1868DB",
       "pontos": 64
     },
     {
@@ -108,6 +117,7 @@
       "nacionalidade": "Espanhol",
       "bandeira": "es",
       "equipe": "Aston Martin",
+      "cor": "#229971",
       "pontos": 56
     },
     {
@@ -119,6 +129,7 @@
       "nacionalidade": "Alemão",
       "bandeira": "de",
       "equipe": "Kick Sauber",
+      "cor": "#52E252",
       "pontos": 51
     },
     {
@@ -130,6 +141,7 @@
       "nacionalidade": "Francês",
       "bandeira": "fr",
       "equipe": "Racing Bulls",
+      "cor": "#6692FF",
       "pontos": 51
     },
     {
@@ -141,6 +153,7 @@
       "nacionalidade": "Britânico",
       "bandeira": "gb",
       "equipe": "Haas",
+      "cor": "#B6BABD",
       "pontos": 41
     },
     {
@@ -152,6 +165,7 @@
       "nacionalidade": "Neozelandês",
       "bandeira": "nz",
       "equipe": "Racing Bulls",
+      "cor": "#6692FF",
       "pontos": 38
     },
     {
@@ -163,6 +177,7 @@
       "nacionalidade": "Francês",
       "bandeira": "fr",
       "equipe": "Haas",
+      "cor": "#B6BABD",
       "pontos": 38
     },
     {
@@ -174,6 +189,7 @@
       "nacionalidade": "Canadense",
       "bandeira": "ca",
       "equipe": "Aston Martin",
+      "cor": "#229971",
       "pontos": 34
     },
     {
@@ -185,6 +201,7 @@
       "nacionalidade": "Japonês",
       "bandeira": "jp",
       "equipe": "Red Bull Racing",
+      "cor": "#3671C6",
       "pontos": 33
     },
     {
@@ -196,6 +213,7 @@
       "nacionalidade": "Francês",
       "bandeira": "fr",
       "equipe": "Alpine",
+      "cor": "#0093CC",
       "pontos": 22
     },
     {
@@ -207,6 +225,7 @@
       "nacionalidade": "Brasileiro",
       "bandeira": "br",
       "equipe": "Kick Sauber",
+      "cor": "#52E252",
       "pontos": 19
     },
     {
@@ -218,6 +237,7 @@
       "nacionalidade": "Argentino",
       "bandeira": "ar",
       "equipe": "Alpine",
+      "cor": "#0093CC",
       "pontos": 0
     },
     {
@@ -229,6 +249,7 @@
       "nacionalidade": "Australiano",
       "bandeira": "au",
       "equipe": "Alpine",
+      "cor": "#0093CC",
       "pontos": 0
     }
   ],
@@ -364,7 +385,11 @@
       "pais": "Austrália",
       "bandeira": "au",
       "data": "2025-03-16",
-      "imagem": ""
+      "podium": [
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "1:42:06.304" },
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "+0.895s" },
+        { "piloto": "RUS", "pilotoImg": "", "tempoCorrida": "+8.481s" }
+      ]
     },
     {
       "id": 2,
@@ -374,7 +399,11 @@
       "pais": "China",
       "bandeira": "cn",
       "data": "2025-03-23",
-      "imagem": ""
+      "podium": [
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "1:30:55.026" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+9.748s" },
+        { "piloto": "RUS", "pilotoImg": "", "tempoCorrida": "+11.097s" }
+      ]
     },
     {
       "id": 3,
@@ -384,7 +413,11 @@
       "pais": "Japão",
       "bandeira": "jp",
       "data": "2025-04-06",
-      "imagem": ""
+      "podium": [
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "1:22:06.983" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+1.423s" },
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "+2.129s" }
+      ]
     },
     {
       "id": 4,
@@ -394,7 +427,11 @@
       "pais": "Bahrein",
       "bandeira": "bh",
       "data": "2025-04-13",
-      "imagem": ""
+      "podium": [
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "1:35:39.435" },
+        { "piloto": "RUS", "pilotoImg": "", "tempoCorrida": "+15.499s" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+16.273s" }
+      ]
     },
     {
       "id": 5,
@@ -404,7 +441,11 @@
       "pais": "Arábia Saudita",
       "bandeira": "sa",
       "data": "2025-04-20",
-      "imagem": ""
+      "podium": [
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "1:21:06.758" },
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "+2.843s" },
+        { "piloto": "LEC", "pilotoImg": "", "tempoCorrida": "+8.104s" }
+      ]
     },
     {
       "id": 6,
@@ -414,7 +455,11 @@
       "pais": "Estados Unidos",
       "bandeira": "us",
       "data": "2025-05-04",
-      "imagem": ""
+      "podium": [
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "1:28:51.587" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+4.630s" },
+        { "piloto": "RUS", "pilotoImg": "", "tempoCorrida": "+37.644s" }
+      ]
     },
     {
       "id": 7,
@@ -424,7 +469,11 @@
       "pais": "Itália",
       "bandeira": "it",
       "data": "2025-05-18",
-      "imagem": ""
+      "podium": [
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "1:31:33.199" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+6.109s" },
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "+12.956s" }
+      ]
     },
     {
       "id": 8,
@@ -434,7 +483,11 @@
       "pais": "Mônaco",
       "bandeira": "mc",
       "data": "2025-05-25",
-      "imagem": ""
+      "podium": [
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "1:40:33.843" },
+        { "piloto": "LEC", "pilotoImg": "", "tempoCorrida": "+3.131s" },
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "+3.658s" }
+      ]
     },
     {
       "id": 9,
@@ -444,7 +497,11 @@
       "pais": "Espanha",
       "bandeira": "es",
       "data": "2025-06-01",
-      "imagem": ""
+      "podium": [
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "1:32:57.375" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+2.471s" },
+        { "piloto": "LEC", "pilotoImg": "", "tempoCorrida": "+10.455s" }
+      ]
     },
     {
       "id": 10,
@@ -454,7 +511,11 @@
       "pais": "Canadá",
       "bandeira": "ca",
       "data": "2025-06-15",
-      "imagem": ""
+      "podium": [
+        { "piloto": "RUS", "pilotoImg": "", "tempoCorrida": "1:31:52.688" },
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "+0.228s" },
+        { "piloto": "ANT", "pilotoImg": "", "tempoCorrida": "+1.014s" }
+      ]
     },
     {
       "id": 11,
@@ -464,7 +525,11 @@
       "pais": "Áustria",
       "bandeira": "at",
       "data": "2025-06-29",
-      "imagem": ""
+      "podium": [
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "1:23:47.693" },
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "+2.695s" },
+        { "piloto": "LEC", "pilotoImg": "", "tempoCorrida": "+19.820s" }
+      ]
     },
     {
       "id": 12,
@@ -474,7 +539,11 @@
       "pais": "Reino Unido",
       "bandeira": "gb",
       "data": "2025-07-06",
-      "imagem": ""
+      "podium": [
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "1:37:15.735" },
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "+6.812s" },
+        { "piloto": "HUL", "pilotoImg": "", "tempoCorrida": "+34.742s" }
+      ]
     },
     {
       "id": 13,
@@ -484,7 +553,11 @@
       "pais": "Bélgica",
       "bandeira": "be",
       "data": "2025-07-27",
-      "imagem": ""
+      "podium": [
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "1:25:22.601" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+3.415s" },
+        { "piloto": "LEC", "pilotoImg": "", "tempoCorrida": "+20.185s" }
+      ]
     },
     {
       "id": 14,
@@ -494,7 +567,11 @@
       "pais": "Hungria",
       "bandeira": "hu",
       "data": "2025-08-03",
-      "imagem": ""
+      "podium": [
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "1:35:21.231" },
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "+0.698s" },
+        { "piloto": "RUS", "pilotoImg": "", "tempoCorrida": "+21.916s" }
+      ]
     },
     {
       "id": 15,
@@ -504,7 +581,11 @@
       "pais": "Países Baixos",
       "bandeira": "nl",
       "data": "2025-08-31",
-      "imagem": ""
+      "podium": [
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "1:38:29.849" },
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "+1.271s" },
+        { "piloto": "HAD", "pilotoImg": "", "tempoCorrida": "+3.233s" }
+      ]
     },
     {
       "id": 16,
@@ -514,7 +595,11 @@
       "pais": "Itália",
       "bandeira": "it",
       "data": "2025-09-07",
-      "imagem": ""
+      "podium": [
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "1:13:24.325" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+19.207s" },
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "+21.351s" }
+      ]
     },
     {
       "id": 17,
@@ -524,7 +609,11 @@
       "pais": "Azerbaijão",
       "bandeira": "az",
       "data": "2025-09-21",
-      "imagem": ""
+      "podium": [
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "1:33:26.408" },
+        { "piloto": "RUS", "pilotoImg": "", "tempoCorrida": "+14.609s" },
+        { "piloto": "SAI", "pilotoImg": "", "tempoCorrida": "+19.199s" }
+      ]
     },
     {
       "id": 18,
@@ -534,7 +623,11 @@
       "pais": "Singapura",
       "bandeira": "sg",
       "data": "2025-10-05",
-      "imagem": ""
+      "podium": [
+        { "piloto": "RUS", "pilotoImg": "", "tempoCorrida": "1:40:22.367" },
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "+5.430s" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+6.066s" }
+      ]
     },
     {
       "id": 19,
@@ -544,7 +637,11 @@
       "pais": "Estados Unidos",
       "bandeira": "us",
       "data": "2025-10-19",
-      "imagem": ""
+      "podium": [
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "1:34:00.161" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+7.959s" },
+        { "piloto": "LEC", "pilotoImg": "", "tempoCorrida": "+15.373s" }
+      ]
     },
     {
       "id": 20,
@@ -553,8 +650,12 @@
       "pais": "México",
       "bandeira": "mx",
       "data": "2025-10-26",
-      "imagem": "",
-      "grandePremio": "Grande Prêmio da Cidade do México"
+      "grandePremio": "Grande Prêmio da Cidade do México",
+      "podium": [
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "1:37:58.574" },
+        { "piloto": "LEC", "pilotoImg": "", "tempoCorrida": "+30.324s" },
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "+31.049s" }
+      ]
     },
     {
       "id": 21,
@@ -564,7 +665,11 @@
       "pais": "Brasil",
       "bandeira": "br",
       "data": "2025-11-09",
-      "imagem": ""
+      "podium": [
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "1:32:01.596" },
+        { "piloto": "ANT", "pilotoImg": "", "tempoCorrida": "+10.388s" },
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "+10.750s" }
+      ]
     },
     {
       "id": 22,
@@ -574,7 +679,11 @@
       "pais": "Estados Unidos",
       "bandeira": "us",
       "data": "2025-11-22",
-      "imagem": ""
+      "podium": [
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "1:21:08.429" },
+        { "piloto": "RUS", "pilotoImg": "", "tempoCorrida": "+23.546s" },
+        { "piloto": "ANT", "pilotoImg": "", "tempoCorrida": "+30.488s" }
+      ]
     },
     {
       "id": 23,
@@ -584,7 +693,11 @@
       "pais": "Catar",
       "bandeira": "qa",
       "data": "2025-11-30",
-      "imagem": ""
+      "podium": [
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "1:24:38.241" },
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "+7.995s" },
+        { "piloto": "SAI", "pilotoImg": "", "tempoCorrida": "+22.665s" }
+      ]
     },
     {
       "id": 24,
@@ -594,7 +707,11 @@
       "pais": "Emirados Árabes Unidos",
       "bandeira": "ae",
       "data": "2025-12-07",
-      "imagem": ""
+      "podium": [
+        { "piloto": "VER", "pilotoImg": "", "tempoCorrida": "1:26:07.469" },
+        { "piloto": "PIA", "pilotoImg": "", "tempoCorrida": "+12.594s" },
+        { "piloto": "NOR", "pilotoImg": "", "tempoCorrida": "+16.572s" }
+      ]
     }
   ]
 }

@@ -27,7 +27,7 @@ export default function Tabela() {
                     <tr key={p.id}>
                         <td className="positionNumber">{p.posicao}</td>
                         <td className="pilotContainer">
-                            <img src={p.foto} alt="piloto-foto" />
+                            <img src={p.foto} alt="piloto-foto" style={{ backgroundColor:`${piloto.cor}`}} />
                             <h4>{p.nome}</h4>
                         </td>
                         <td>

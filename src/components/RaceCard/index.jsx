@@ -26,8 +26,31 @@ export default function RaceCard() {
                 </div>
             </div>
         
-            <div className="cardFooter">
-                <h6>18 - 20 feb</h6>
+            <div className="RacePodium">
+                <div className="PodiumCard">
+                    <span>1</span>
+                    <img src=""/>
+                    <div>
+                        <h6>Piloto</h6>
+                        <span>1:33:15.670</span>
+                    </div>
+                </div>
+                <div className="RacePodium">
+                    <span>1</span>
+                    <img src=""/>
+                    <div>
+                        <h6>Piloto</h6>
+                        <span>1:33:15.670</span>
+                    </div>
+                </div>
+                <div className="RacePodium">
+                    <span>1</span>
+                    <img src=""/>
+                    <div>
+                        <h6>Piloto</h6>
+                        <span>1:33:15.670</span>
+                    </div>
+                </div>
             </div>
         </div>
         ))}

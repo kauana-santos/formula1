@@ -13,11 +13,9 @@ export default function Nav() {
                         <Link className="nome" to="/corridas">Corridas</Link>
                     </li>
                     <li>
-                        <Link className="nome">Bolão</Link>
+                        <Link className="nome" to="/forum">Fórum</Link>
                     </li>
-                    <li>
-                        <Link className="nome">Faq</Link>
-                    </li>
+                    
                 </ul>
             </nav>
         </div>

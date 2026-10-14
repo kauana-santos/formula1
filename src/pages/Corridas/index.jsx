@@ -1,4 +1,4 @@
-import "./Corridas.css"
+
 import RaceCard from '../../components/RaceCard'
 
 export default function Corridas() {
