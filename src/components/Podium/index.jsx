@@ -8,7 +8,7 @@ export default function Podium() {
                 <h3>Max Verstappen</h3>
                 <h4>Red Bull Racing</h4>
 
-                <span>bandeira</span>
+                <span className={`fi fi-nl`}></span>
             </div>
             <div>421</div>
         </div>
@@ -19,7 +19,7 @@ export default function Podium() {
                 <h3>Lando Norris</h3>
                 <h4>McLaren</h4>
 
-                <span>bandeira</span>
+                <span className={`fi fi-gb`}></span>
             </div>
             <div>423</div>
         </div>
@@ -29,7 +29,7 @@ export default function Podium() {
                 <h3>Oscar Piastri</h3>
                 <h4>McLaren</h4>
 
-                <span>bandeira</span>
+                <span className={`fi fi-au`}></span>
             </div>
             <div>410</div>
         </div>

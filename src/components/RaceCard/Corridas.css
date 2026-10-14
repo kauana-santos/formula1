@@ -39,12 +39,14 @@
 .PodiumCard{
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 4px;
     background-color: #313131;
     padding: 8px;
     border-radius: 5px;
     width: 100%;
     margin-left: 3px;
-    justify-content: center;
+    
 }
 
 .paisDiv{
