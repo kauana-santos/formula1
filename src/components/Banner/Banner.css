@@ -1,5 +1,17 @@
 .bannerSection{
     min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--fundo-circuitos);
+    margin-top: 10px;
+}
+.banner{
+    display: block;
+    min-width: 620px;
+    min-height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner a{

@@ -14,7 +14,6 @@
 
 .podiumCard {
     padding: 20px;
-    background-color: #4fecea;
     color: white;
     border-radius: 8px;
     display: flex;
@@ -24,6 +23,8 @@
 
 /* Segundo lugar: esquerda */
 .podiumCard:nth-child(1) {
+    background-image: url("../../assets/piloto2.png");
+    background-size: cover;
     grid-column: 1;
     grid-row: 1;
     min-height: 240px;
@@ -31,6 +32,8 @@
 
 /* Primeiro lugar: centro */
 .podiumCard:nth-child(2) {
+    background-image: url("../../assets/piloto1.png");
+    background-size: cover;
     grid-column: 2;
     grid-row: 1;
     min-height: 280px;
@@ -38,6 +41,8 @@
 
 /* Terceiro lugar: direita */
 .podiumCard:nth-child(3) {
+    background-image: url("../../assets/piloto3.png");
+    background-size: cover;
     grid-column: 3;
     grid-row: 1;
     min-height: 210px;
