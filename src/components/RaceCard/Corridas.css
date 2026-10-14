@@ -47,6 +47,15 @@
     justify-content: center;
 }
 
+.paisDiv{
+    display: flex;
+}
+
+.icon-bandeira{
+    font-size: 25px;
+    margin-right: 9px;
+}
+
 img {
     height: 30px;
     width: 30px;

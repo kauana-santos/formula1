@@ -21,8 +21,8 @@ export default function RaceCard() {
                             <h5>06 - 08 mar</h5>
                         </div>
                         <div className="cardMain">
-                            <div>
-                                <span className={`fi fi-${cir.bandeira}`}></span>
+                            <div className="paisDiv">
+                                <span className={`fi fi-${cir.bandeira} icon-bandeira`}></span>
                                 <h5>{cir.pais}</h5>
                             </div>
                             <p>{cir.circuito}</p>

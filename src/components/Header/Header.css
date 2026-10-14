@@ -7,6 +7,14 @@ header{
 .titleContainer{
     color: #fff;
     padding: 1% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer img{
+    height: 70px;
+    width: 70px;
 }
 
 .titleContainer h1{

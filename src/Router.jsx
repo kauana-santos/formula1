@@ -3,11 +3,12 @@ import Home from "./pages/Home/Home";
 import Nav from "./components/Nav";
 import Corridas from "./pages/Corridas";
 import Forum from "./pages/Forum";
+import Header from "./components/Header";
 
 export default function Router() {
   return (
     <BrowserRouter>
-        <Nav/>
+        <Header nav={<Nav/>}/>
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/corridas" element={<Corridas/>}/>
