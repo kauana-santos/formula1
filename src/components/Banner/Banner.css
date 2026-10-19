@@ -7,14 +7,30 @@
     background-color: var(--fundo-circuitos);
     margin-top: 10px;
 }
-.banner{
+.banner {
+    position: relative;
     display: block;
-    min-width: 620px;
-    min-height: 340px;
+    min-width: 820px;
+    min-height: 440px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 6px;
     box-shadow: 1px 1px 10px #1d1d1d;
+    overflow: hidden;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+    pointer-events: none;
+}
+
+.banner:hover::after {
+    background-color: rgba(0, 0, 0, 0.45);
 }
 
 .bannerSection h2{

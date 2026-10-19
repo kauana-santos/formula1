@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import PostForm from "../../components/PostForm";
 import PostCard from "../../components/PostCard";
 
+import "./Forum.css"
+
 const API_URL = "http://localhost:3000/posts";
 
 export default function Posts() {

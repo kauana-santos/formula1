@@ -1,13 +1,10 @@
 .postCard {
   width: 90%;
-  max-width: 550px;
+  max-width: 720px;
   margin: 20px auto;
   padding: 22px;
-
   background-color: var(--fundo-circuitos);
-  border: 1px solid #292929;
   border-radius: 8px;
-
   color: var(--font-color);
 }
 
