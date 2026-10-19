@@ -1,9 +1,9 @@
 .postFormContainer {
-  width: 100%;
-  max-width: 700px;
-  margin: 40px auto;
-  padding: 30px;
-  
+  width: 90%;
+  max-width: 550px;
+  margin: 30px auto;
+  padding: 22px;
+
   background-color: var(--fundo-circuitos);
   border: 1px solid #292929;
   border-radius: 8px;
@@ -12,29 +12,27 @@
 
 .postFormContainer h2 {
   font-family: var(--font-title);
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
   text-transform: uppercase;
-  border-left: 4px solid var(--f1-red);
-  padding-left: 12px;
 }
 
 .postForm {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
 .postFormGroup {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 7px;
 }
 
 .postFormGroup label {
   font-family: var(--font-title);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--font-color);
 }
@@ -42,7 +40,7 @@
 .postFormGroup input,
 .postFormGroup textarea {
   width: 100%;
-  padding: 12px 14px;
+  padding: 10px 12px;
 
   background-color: var(--fundo-header);
   border: 1px solid #353535;
@@ -51,18 +49,18 @@
 
   color: var(--font-color);
   font-family: var(--font-text);
-  font-size: 15px;
+  font-size: 14px;
 
   transition: border-color 0.3s ease;
 }
 
 .postFormGroup input {
-  height: 45px;
+  height: 40px;
 }
 
 .postFormGroup textarea {
-  min-height: 150px;
-  resize: vertical;
+  min-height: 110px;
+  resize: none;
   line-height: 1.5;
 }
 
@@ -78,7 +76,7 @@
 
 .postFormButton {
   width: 100%;
-  padding: 13px;
+  padding: 11px;
 
   background-color: var(--f1-red);
   border: none;
@@ -86,7 +84,7 @@
 
   color: var(--font-color);
   font-family: var(--font-title);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 
@@ -104,12 +102,16 @@
 
 @media (max-width: 600px) {
   .postFormContainer {
-    margin: 25px auto;
-    padding: 20px;
     width: 92%;
+    margin: 20px auto;
+    padding: 18px;
   }
 
   .postFormContainer h2 {
-    font-size: 23px;
+    font-size: 21px;
+  }
+
+  .postFormGroup textarea {
+    min-height: 100px;
   }
 }

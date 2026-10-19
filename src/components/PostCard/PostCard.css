@@ -1,0 +1,99 @@
+.postCard {
+  width: 90%;
+  max-width: 550px;
+  margin: 20px auto;
+  padding: 22px;
+
+  background-color: var(--fundo-circuitos);
+  border: 1px solid #292929;
+  border-radius: 8px;
+
+  color: var(--font-color);
+}
+
+.postCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+
+  padding-bottom: 15px;
+  border-bottom: 1px solid #353535;
+}
+
+.postCardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.postCardAutor {
+  font-family: var(--font-title);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.postCardData {
+  font-family: var(--font-number);
+  font-size: 13px;
+  color: #999;
+}
+
+.postCardExcluir {
+  padding: 7px 12px;
+
+  background-color: transparent;
+  border: 1px solid var(--f1-red);
+  border-radius: 4px;
+
+  color: var(--f1-red);
+  font-family: var(--font-title);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.postCardExcluir:hover {
+  background-color: var(--f1-red);
+  color: var(--font-color);
+}
+
+.postCardBody {
+  padding-top: 16px;
+}
+
+.postCardTitulo {
+  margin-bottom: 10px;
+
+  font-family: var(--font-title);
+  font-size: 21px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.postCardConteudo {
+  color: #ccc;
+  font-family: var(--font-text);
+  font-size: 15px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 600px) {
+  .postCard {
+    width: 92%;
+    padding: 18px;
+  }
+
+  .postCardTitulo {
+    font-size: 19px;
+  }
+
+  .postCardConteudo {
+    font-size: 14px;
+  }
+}
