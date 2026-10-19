@@ -1,11 +1,38 @@
 import "./PostForm.css";
 
-export default function PostForm() {
+export default function PostForm({ onPostCreated }) {
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    const formulario = e.target;
+
+    const novoPost = {
+      autor: formulario.autor.value,
+      titulo: formulario.titulo.value,
+      conteudo: formulario.conteudo.value,
+    };
+
+    const resposta = await fetch("http://localhost:3000/posts", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(novoPost),
+    });
+
+    if (resposta.ok) {
+      const postCriado = await resposta.json();
+
+      onPostCreated(postCriado);
+      formulario.reset();
+    }
+  }
+
   return (
     <div className="postFormContainer">
       <h2>Novo post</h2>
 
-      <form className="postForm">
+      <form className="postForm" onSubmit={handleSubmit}>
         <div className="postFormGroup">
           <label htmlFor="autor">Autor</label>
           <input
@@ -36,7 +63,6 @@ export default function PostForm() {
             placeholder="Escreva seu post..."
             rows="5"
             required
-            
           />
         </div>
 
