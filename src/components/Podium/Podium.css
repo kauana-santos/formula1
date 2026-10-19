@@ -47,3 +47,13 @@
     grid-row: 1;
     min-height: 210px;
 }
+
+.podiumCard h2{
+    font-size: 23px;
+}
+
+.podium-sufixo{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 3px;
+}

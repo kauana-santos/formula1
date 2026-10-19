@@ -6,7 +6,7 @@ import Division from "../../components/Division"
 
 export default function Corridas() {
   return (
-    <section>
+    <section className='containerPrincipal'>
       <Banner link={`https://www.formula1.com/en/racing/2026`} bannerimg={banner} titulo={"Acompanhe o calendário atual!"}/>
         <main>
           <Division/>

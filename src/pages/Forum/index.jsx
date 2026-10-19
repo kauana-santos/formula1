@@ -38,13 +38,11 @@ export default function Posts() {
   }
 
   return (
-    <main>
+    <main className='containerPrincipal'>
       <PostForm onPostCreated={adicionarPost} />
 
       <Division/>
       <section className="postsContainer">
-        <h2>Publicações</h2>
-
         {posts.map((post) => (
           <PostCard
             key={post.id}

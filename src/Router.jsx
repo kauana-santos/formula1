@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Corridas from "./pages/Corridas";
 import Forum from "./pages/Forum";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function Router() {
   return (
@@ -14,6 +15,7 @@ export default function Router() {
             <Route path="/corridas" element={<Corridas/>}/>
             <Route path="/forum" element={<Forum/>}/>
         </Routes>
+        <Footer/>
     </BrowserRouter>
   )
 }

@@ -9,6 +9,10 @@ body{
   background-color: #000000;
 }
 
+.containerPrincipal{
+  background-color: var(--fundo-circuitos);
+}
+
 :root{
   --font-title: "Titillium Web", sans-serif;
   --font-text: "Roboto Condensed", sans-serif;
