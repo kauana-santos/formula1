@@ -1,4 +1,145 @@
-.heroSection{
-    background-color: aquamarine;
-    
+.hero {
+    position: relative;
+    min-height: 85vh;
+    display: grid;
+    align-items: center;
+    margin: 20px;
+    padding: 80px 8%;
+    overflow: hidden;
+    isolation: isolate;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* Vídeo de fundo */
+.heroVideo {
+    position: absolute;
+    inset: 12px;
+
+    width: calc(100% - 24px);
+    height: calc(100% - 24px);
+
+    object-fit: cover;
+    border-radius: 8px;
+
+    z-index: -2;
+}
+.heroBlur {
+    position: absolute;
+    inset: 12px;
+
+    border-radius: 8px;
+
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.65) 45%,
+        rgba(0, 0, 0, 0.2) 100%
+    );
+
+    z-index: -1;
+}
+
+/* Conteúdo sobre o vídeo */
+.heroContent {
+    max-width: 750px;
+}
+
+.heroSubtitle {
+    display: inline-block;
+    margin-bottom: 20px;
+
+    color: #E10400;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+}
+
+.heroContent h1 {
+    font-family: var(--font-title);
+    font-size: clamp(3rem, 7vw, 6.5rem);
+    font-weight: 900;
+    line-height: 0.95;
+
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.heroContent h1 span {
+    color: #E10400;
+}
+
+.heroContent p {
+    max-width: 550px;
+
+    color: #ddd;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Botão principal */
+.heroButton {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 28px;
+
+    background-color: #E10400;
+    color: #fff;
+
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    transition: background-color 0.3s ease;
+}
+
+.heroButton:hover {
+    background-color: #b80300;
+}
+
+/* Informações na parte inferior */
+.heroBottom {
+    position: absolute;
+    bottom: 25px;
+    right: 8%;
+
+    display: flex;
+    gap: 25px;
+
+    color: #fff;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    opacity: 0.7;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero {
+        min-height: 75vh;
+        margin: 12px;
+        padding: 60px 6%;
+    }
+
+    .heroVideo,
+    .heroOverlay {
+        inset: 8px;
+        width: calc(100% - 16px);
+        height: calc(100% - 16px);
+    }
+
+    .heroContent h1 {
+        font-size: clamp(2.8rem, 12vw, 5rem);
+    }
+
+    .heroContent p {
+        font-size: 1rem;
+    }
+
+    .heroBottom {
+        left: 6%;
+        right: auto;
+        gap: 15px;
+        font-size: 0.65rem;
+    }
 }

@@ -3,6 +3,7 @@ import PostForm from "../../components/PostForm";
 import PostCard from "../../components/PostCard";
 
 import "./Forum.css"
+import Division from "../../components/Division";
 
 const API_URL = "http://localhost:3000/posts";
 
@@ -40,6 +41,7 @@ export default function Posts() {
     <main>
       <PostForm onPostCreated={adicionarPost} />
 
+      <Division/>
       <section className="postsContainer">
         <h2>Publicações</h2>
 

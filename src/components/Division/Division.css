@@ -1,0 +1,14 @@
+.containerDivision{
+    padding: 30px 10px;
+}
+
+.linhaVermelha {
+    border: none;
+    height: 6px;
+    background-color: #E10400;
+    margin: 0;
+}
+
+.linhaVermelha + .linhaVermelha {
+    margin-top: 1px;
+}
