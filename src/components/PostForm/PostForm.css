@@ -1,0 +1,115 @@
+.postFormContainer {
+  width: 100%;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  
+  background-color: var(--fundo-circuitos);
+  border: 1px solid #292929;
+  border-radius: 8px;
+  color: var(--font-color);
+}
+
+.postFormContainer h2 {
+  font-family: var(--font-title);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  border-left: 4px solid var(--f1-red);
+  padding-left: 12px;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.postFormGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.postFormGroup label {
+  font-family: var(--font-title);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--font-color);
+}
+
+.postFormGroup input,
+.postFormGroup textarea {
+  width: 100%;
+  padding: 12px 14px;
+
+  background-color: var(--fundo-header);
+  border: 1px solid #353535;
+  border-radius: 5px;
+  outline: none;
+
+  color: var(--font-color);
+  font-family: var(--font-text);
+  font-size: 15px;
+
+  transition: border-color 0.3s ease;
+}
+
+.postFormGroup input {
+  height: 45px;
+}
+
+.postFormGroup textarea {
+  min-height: 150px;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.postFormGroup input::placeholder,
+.postFormGroup textarea::placeholder {
+  color: #777;
+}
+
+.postFormGroup input:focus,
+.postFormGroup textarea:focus {
+  border-color: var(--f1-red);
+}
+
+.postFormButton {
+  width: 100%;
+  padding: 13px;
+
+  background-color: var(--f1-red);
+  border: none;
+  border-radius: 5px;
+
+  color: var(--font-color);
+  font-family: var(--font-title);
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.postFormButton:hover {
+  background-color: #b80300;
+}
+
+.postFormButton:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+  .postFormContainer {
+    margin: 25px auto;
+    padding: 20px;
+    width: 92%;
+  }
+
+  .postFormContainer h2 {
+    font-size: 23px;
+  }
+}
