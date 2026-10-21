@@ -1,12 +1,20 @@
+
 .containerTable {
     width: 100%;
     padding: 30px 90px;
     box-sizing: border-box;
     background-color: var(--fundo-table);
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
 }
 
 .table {
     width: 100%;
+    min-width: 750px;
+
     border-collapse: collapse;
     font-family: Arial, sans-serif;
 }
@@ -20,6 +28,7 @@
     padding: 18px;
     text-align: left;
     font-size: 16px;
+    white-space: nowrap;
 }
 
 .table td {
@@ -27,22 +36,24 @@
     border-bottom: 1px solid #313131;
     font-size: 16px;
     color: #fff;
+    white-space: nowrap;
 }
 
-.pilotContainer{
+.pilotContainer {
     display: flex;
     align-items: center;
-    
+    gap: 4px;
 }
 
-.pilotContainer h4{
+.pilotContainer h4 {
     font-weight: 400;
-    
 }
 
 .pilotContainer img {
     height: 30px;
     width: 30px;
+    flex-shrink: 0;
+
     border-radius: 50%;
     object-fit: cover;
     object-position: top;
@@ -51,14 +62,88 @@
 
 
 .table tbody tr:hover {
-    background-color:  var(--hover-tableRow);
+    background-color: var(--hover-tableRow);
 }
 
-.positionNumber{
-    font-family: var( --font-number);
+.positionNumber {
+    font-family: var(--font-number);
     font-weight: 600;
 }
 
-.nacionalidade{
-    margin-left:5px;
+
+.nacionalidade {
+    margin-left: 5px;
+}
+
+.containerTable::-webkit-scrollbar {
+    height: 7px;
+}
+
+.containerTable::-webkit-scrollbar-track {
+    background-color: #15151E;
+    border-radius: 10px;
+}
+
+.containerTable::-webkit-scrollbar-thumb {
+    background-color: #444343;
+    border-radius: 10px;
+}
+
+.containerTable::-webkit-scrollbar-thumb:hover {
+    background-color: var(--f1-red);
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .containerTable {
+        padding: 25px 30px;
+    }
+
+    .table {
+        min-width: 750px;
+    }
+
+    .table th,
+    .table td {
+        padding: 16px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    .containerTable {
+        padding: 20px 12px;
+    }
+
+    .table {
+        min-width: 700px;
+    }
+
+    .table th,
+    .table td {
+        padding: 14px 12px;
+        font-size: 14px;
+    }
+
+    .pilotContainer img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 380px) {
+    .containerTable {
+        padding: 15px 8px;
+    }
+
+    .table {
+        min-width: 680px;
+    }
+
+    .table th,
+    .table td {
+        padding: 12px 10px;
+        font-size: 13px;
+    }
 }

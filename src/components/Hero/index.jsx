@@ -1,5 +1,6 @@
+
 import "./Hero.css";
-import video from "../../assets/video/hero-f1-otimizado.mp4"
+import video from "../../assets/video/hero-f1-otimizado.mp4";
 
 export default function Hero() {
   return (
@@ -10,32 +11,30 @@ export default function Hero() {
         muted
         loop
         playsInline
+        aria-hidden="true"
       >
-        <source
-          src={video}
-          type="video/mp4"
-        />
+        <source src={video} type="video/mp4" />
         Seu navegador não suporta vídeos.
       </video>
 
       <div className="heroBlur"></div>
 
       <div className="heroContent">
-        <span className="heroSubtitle">
-          FORMULA 1 • TEMPORADA 2025
-        </span>
+        <h1 className="heroTitle">
+          FORMULA <span>1</span>
+          <strong>O ESPORTE DA VELOCIDADE</strong>
+        </h1>
 
         <p>
-          Acompanhe os pilotos, conheça as equipes e circuitos da temporada de 2025.
+          Acompanhe os pilotos, conheça as equipes e
+          descubra os circuitos da temporada de 2025.
         </p>
-
-      
       </div>
 
       <div className="heroBottom">
-        <span>RACE</span>
-        <span>SPEED</span>
-        <span>PRECISION</span>
+        <span>CORRIDA</span>
+        <span>VELOCIDADE</span>
+        <span>PRECISÃO</span>
       </div>
     </section>
   );

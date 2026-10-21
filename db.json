@@ -879,13 +879,6 @@
       ]
     }
   ],
-  "posts": [
-    {
-      "autor": "kauana",
-      "titulo": "teste",
-      "conteudo": "teste",
-      "id": "CYgmPXopvqk"
-    }
-  ],
+  "posts": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

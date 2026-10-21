@@ -1,71 +1,224 @@
-.sectionRaceCard{
+.sectionRaceCard {
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: stretch;
     gap: 20px;
-    padding: 30px 90px;
+    padding: 30px 5%;
     background-color: var(--fundo-circuitos);
 }
 
-.RaceCardContainer{
+.RaceCardContainer {
     color: #fff;
     background-color: #000;
-    width: 490px;
-    height: 210px;
+    width: 100%;
+    max-width: 490px;
+    min-width: 0;
+    min-height: 210px;
+    box-sizing: border-box;
     border-radius: 10px;
     padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 16px;
 }
 
-.cardHeader{
+.cardHeader {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
-.cardHeader h5, .cardMain h5{
+
+.cardHeader h5,
+.cardMain h5 {
+    font-family: var(--font-title);
     font-size: 17px;
 }
 
-.cardMain{
+.cardHeader h5 {
+    overflow-wrap: anywhere;
+}
+
+.cardMain {
     margin-top: 5px;
 }
 
-.RacePodium{
-    display: flex;
-    justify-content: space-around;
-}
-
-.PodiumCard{
+.paisDiv {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 4px;
+    gap: 9px;
+}
+
+.paisDiv h5 {
+    overflow-wrap: anywhere;
+}
+
+.icon-bandeira {
+    flex-shrink: 0;
+    font-size: 25px;
+}
+
+.cardMain p {
+    margin-top: 5px;
+    color: #bdbdbd;
+    font-family: var(--font-text);
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+.RacePodium {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    width: 100%;
+}
+
+.PodiumCard {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    min-width: 0;
+    box-sizing: border-box;
     background-color: #313131;
     padding: 8px;
     border-radius: 5px;
-    width: 100%;
-    margin-left: 3px;
-    
 }
 
-.paisDiv{
-    display: flex;
+.PodiumCard > span:first-child {
+    flex-shrink: 0;
+    font-family: var(--font-number);
+    font-weight: 700;
 }
 
-.icon-bandeira{
-    font-size: 25px;
-    margin-right: 9px;
-}
 
-img {
+.PodiumCard img {
+    flex-shrink: 0;
     height: 30px;
     width: 30px;
     border-radius: 50%;
     object-fit: cover;
     object-position: top;
-    margin-right: 4px;
+    margin: 0;
 }
 
+.PodiumCard > div {
+    min-width: 0;
+}
 
+.PodiumCard h6 {
+    font-family: var(--font-title);
+    font-size: 12px;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
 
+.PodiumCard > div span {
+    display: block;
+    margin-top: 4px;
+
+    color: #bdbdbd;
+    font-family: var(--font-number);
+    font-size: 11px;
+
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 1024px) {
+    .sectionRaceCard {
+        padding: 25px 4%;
+        gap: 16px;
+    }
+
+    .RaceCardContainer {
+        max-width: 460px;
+    }
+
+    .PodiumCard {
+        gap: 5px;
+        padding: 7px 5px;
+    }
+
+    .PodiumCard img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .PodiumCard h6 {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sectionRaceCard {
+        padding: 20px 14px;
+        gap: 16px;
+    }
+
+    .RaceCardContainer {
+        width: 100%;
+        max-width: 420px;
+        min-height: 0;
+
+        padding: 15px;
+        gap: 18px;
+    }
+
+    .cardHeader h5,
+    .cardMain h5 {
+        font-size: 15px;
+    }
+
+    .RacePodium {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 8px;
+    }
+
+    .PodiumCard {
+        width: 100%;
+        min-height: 52px;
+
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+
+        padding: 9px 12px;
+    }
+
+    .PodiumCard img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .PodiumCard h6 {
+        font-size: 13px;
+    }
+
+    .PodiumCard > div span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 380px) {
+    .sectionRaceCard {
+        padding: 16px 10px;
+        gap: 14px;
+    }
+
+    .RaceCardContainer {
+        padding: 12px;
+    }
+
+    .cardHeader h5,
+    .cardMain h5 {
+        font-size: 14px;
+    }
+
+    .icon-bandeira {
+        font-size: 22px;
+    }
+}
