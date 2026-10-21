@@ -6,7 +6,7 @@ export default function Tabela() {
     const [piloto, setPiloto] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/pilotos")
+        fetch("https://formula1-q2mo.onrender.com/pilotos")
             .then((response) => response.json())
             .then((data) => setPiloto(data))
             .catch((error) => console.log(error));

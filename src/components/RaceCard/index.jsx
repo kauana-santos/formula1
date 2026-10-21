@@ -5,7 +5,7 @@ export default function RaceCard() {
     const [circuito, setCircuito] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:3000/circuitos")
+        fetch("https://formula1-q2mo.onrender.com/circuitos")
             .then((res) => res.json())
             .then((data) => setCircuito(data))
             .catch((error) => console.log(error))

@@ -12,7 +12,7 @@ export default function PostForm({ onPostCreated }) {
       conteudo: formulario.conteudo.value,
     };
 
-    const resposta = await fetch("http://localhost:3000/posts", {
+    const resposta = await fetch("https://formula1-q2mo.onrender.com/posts", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
