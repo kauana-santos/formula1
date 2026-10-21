@@ -5,6 +5,7 @@ import Corridas from "./pages/Corridas";
 import Forum from "./pages/Forum";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import NotFound from "./pages/notFound";
 
 export default function Router() {
   return (
@@ -14,6 +15,7 @@ export default function Router() {
             <Route path="/" element={<Home/>}/>
             <Route path="/corridas" element={<Corridas/>}/>
             <Route path="/forum" element={<Forum/>}/>
+            <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer/>
     </BrowserRouter>

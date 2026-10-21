@@ -31,10 +31,8 @@
 
     position: relative;
     display: inline-block;
-
     padding: 5px 0;
 }
-
 
 .nome::after {
     content: "";
@@ -48,11 +46,13 @@
     background-color: var(--f1-red);
 
     transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.3s ease;
+    transform-origin: left center;
+
+    transition: transform 0.3s linear;
 }
 
-.nome:hover::after {
+.nome:hover::after,
+.nome:focus-visible::after {
     transform: scaleX(1);
 }
 
@@ -72,38 +72,8 @@
 @media (max-width: 600px) {
     .navContainer ul {
         width: 100%;
-
         justify-content: center;
         gap: 0;
-
-        padding: 16px 12px;
-    }
-
-    .navContainer li {
-        flex: 1;
-        text-align: center;
-    }
-
-    .nome {
-        font-size: 1rem;
-        padding: 6px 4px;
-    }
-}
-
-/* Celulares pequenos */
-@media (max-width: 380px) {
-    .navContainer ul {
-        padding: 14px 8px;
-    }
-
-    .nome {
-        font-size: 0.9rem;
-    }
-}
-
-/* Acessibilidade */
-@media (prefers-reduced-motion: reduce) {
-    .nome::after {
-        transition: none;
+        padding: 16
     }
 }

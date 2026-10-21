@@ -9,9 +9,9 @@ export default function Home() {
     <section>
         <Hero/>
         <Banner
-        link={"https://www.formula1.com/en/results/2026/team"}
+        link={"https://www.formula1.com/en/results/2026/drivers"}
         bannerimg={BannerImg}
-        titulo={"Veja o ranking de times de 2026"}
+        titulo={"Veja o ranking de pilotos de 2026"}
         />
         <Podium/>
         <Tabela/>

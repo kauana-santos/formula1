@@ -33,9 +33,11 @@
     display: block;
     width: 100%;
     height: 440px;
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
     border-radius: 6px;
     box-shadow: 1px 1px 10px #1d1d1d;
     overflow: hidden;
@@ -46,77 +48,21 @@
     content: "";
     position: absolute;
     inset: 0;
+
     background-color: rgba(0, 0, 0, 0);
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease-in-out;
+
     pointer-events: none;
 }
 
-.banner:hover::after {
+.bannerSection a:hover .banner::after,
+.bannerSection a:focus-visible .banner::after {
     background-color: rgba(0, 0, 0, 0.45);
 }
 
+/* Tablets */
 @media (max-width: 1024px) {
     .bannerSection {
-        padding: 20px 4%;
-    }
-
-    .bannerSection a {
-        max-width: 100%;
-    }
-
-    .banner {
-        height: 350px;
-        background-position: center;
-    }
-
-    .bannerSection h2 {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .bannerSection {
-        min-height: auto;
-        padding: 20px 15px;
-    }
-
-    .bannerSection h2 {
-        font-size: 1.3rem;
-        margin: 5px 0 15px;
-    }
-
-    .banner {
-        height: 220px;
-        border-radius: 6px;
-        background-position: center;
-    }
-}
-
-/* Celulares pequenos */
-@media (max-width: 380px) {
-    .bannerSection {
-        padding: 18px 12px;
-    }
-
-    .bannerSection h2 {
-        font-size: 1.15rem;
-    }
-
-    .banner {
-        height: 180px;
-    }
-}
-
-/* Dispositivos sem hover */
-@media (hover: none) {
-    .banner:hover::after {
-        background-color: rgba(0, 0, 0, 0);
-    }
-}
-
-/* Acessibilidade */
-@media (prefers-reduced-motion: reduce) {
-    .banner::after {
-        transition: none;
+        padding: 20px 
     }
 }
